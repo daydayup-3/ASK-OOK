@@ -1,2 +1,18 @@
-# ASK-OOK
-ASK / OOK 信号：帧检测 + 非相干解调（可运行）
+# ASK Frame Detection Demo
+
+This repository demonstrates a minimal yet practical
+ASK/OOK receiver including:
+
+- AWGN channel
+- Sliding-window energy based frame detection
+- Non-coherent ASK demodulation
+
+## Features
+- No proprietary libraries
+- Easy to understand and modify
+- Suitable for SDR / communication beginners
+
+## Run
+```bash
+pip install -r requirements.txt
+python ask_frame_demo.py
